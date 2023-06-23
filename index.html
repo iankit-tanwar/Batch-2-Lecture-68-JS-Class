@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Batch 2 Lecture 68 JS Class</title>
+</head>
+
+<body>
+
+    <script>
+        /* 
+           class ClassName {
+        
+           }
+        
+        */
+        class Calculator { // we will use ParscalCase naming convenstion
+
+            //1 Method Defiantion inside the class
+            addition(x, y) {
+                // every function return something
+                return x+y;
+
+            }
+            subtraction(x, y) {
+
+                 // every function return something
+                 return x-y;
+
+            }
+            multiplication(x, y) {
+                 // every function return something
+                 return x*y;
+
+            }
+            division(x, y) {
+                 // every function return something
+                 return x/y;
+
+            }
+
+        }
+
+        // In order to call the methods of a class you need create a class object
+       
+        // 1 let object = new ClassName();
+        //2 object.method()
+
+        let myobj1 = new Calculator();
+
+        let result =  myobj1.addition(8,6);
+        console.log(result)
+
+        let result2 = myobj1.multiplication(9,10);
+        console.log(result2);
+
+    </script>
+
+</body>
+
+</html>
